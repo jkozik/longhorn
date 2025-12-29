@@ -1,0 +1,14 @@
+defaultSettings:
+  defaultDataPath: /data/longhorn
+  defaultReplicaCount: 2
+  
+# Expose UI as NodePort
+service:
+  ui:
+    type: NodePort
+    nodePort: 30880
+
+# Storage class configuration  
+persistence:
+  defaultClass: true
+  defaultClassReplicaCount: 2
