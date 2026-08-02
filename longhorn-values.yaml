@@ -1,7 +1,8 @@
 defaultSettings:
   defaultDataPath: /data/longhorn
   defaultReplicaCount: 2
-  
+  createDefaultDiskLabeledNodes: true
+
 # Expose UI as NodePort
 service:
   ui:
